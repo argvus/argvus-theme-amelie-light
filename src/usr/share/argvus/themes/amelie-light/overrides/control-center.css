@@ -1,0 +1,9 @@
+@define-color argvus_bg {{ @fg | hex }};
+@define-color argvus_fg {{ @bg | hex }};
+@define-color argvus_surface_alt {{ @fg | mix(@bg, 0.10) | hex }};
+@define-color argvus_muted {{ @bg | mix(@fg, 0.18) | hex }};
+@define-color argvus_selected_fg {{ @accent | contrast | hex }};
+@define-color argvus_accent {{ @accent | hex }};
+@define-color argvus_accent_alpha {{ @accent | alpha(0.45) | rgba }};
+@define-color argvus_border {{ @accent | alpha(0.42) | rgba }};
+@define-color argvus_focus {{ @accent | hex }};
